@@ -1,15 +1,7 @@
 // ADOFAI Checklist
 // Classes
 class Level {
-  constructor(
-    id,
-    name,
-    speedTrialReq,
-    attempts,
-    accuracy,
-    speedTrial,
-    completed
-  ) {
+  constructor(id, name, speedTrialReq) {
     this.id = id;
     this.name = name;
     this.attempts = 0;
