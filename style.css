@@ -1,0 +1,87 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    user-select: none;
+}
+
+body {
+    background-color: #2E3440;
+    color: #ECEFF4;
+    font-family: "Baloo 2", sans-serif;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    align-items: center;
+    padding: 1rem 2rem;
+    margin: 1rem;
+}
+
+.level {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    align-items: center;
+    padding: 1rem 2rem;
+    margin: 1rem;
+    border-radius: 0.5rem;
+    background-color: #4C566A;
+}
+
+.world {
+    background-color: #3B4252;
+    border-radius: 0.5rem;
+    padding: 1rem 2rem;
+    margin: 1rem;
+    text-align: center;
+}
+
+.statistic {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+input[type="checkbox"] {
+    appearance: none;
+    background-color: #E5E9F0;
+    border-radius: 0.5rem;
+    width: 1rem;
+    height: 1rem;
+    cursor: pointer;
+    margin: 0.5rem;
+}
+
+input[type="checkbox"]:checked {
+    background-color: #81A1C1;
+}
+
+input[type="number"] {
+    border-radius: 0.5rem;
+    width: 4rem;
+    height: 1.5rem;
+    border: none;
+    text-align: center;
+    margin: 0.5rem;
+}
+
+progress {
+    appearance: none;
+    width: 50%;
+    height: 1rem;
+}
+
+progress[value]::-webkit-progress-bar {
+    background-color: #E5E9F0;
+    border-radius: 0.5rem;
+}
+
+progress[value]::-webkit-progress-value {
+    background-color: #81A1C1;
+    border-radius: 0.5rem;
+    transition: width 0.5s ease-in-out;
+}
